@@ -1,0 +1,68 @@
+.game {
+	height: 500px;
+	width: 1000px;
+	border-bottom: 5px solid rgb(70, 67, 67);
+	margin: auto;
+	background-color: rgb(121, 208, 235);
+}
+#tank {
+	height: 100px;
+	width: 200px;
+	background-image: url(/img/tank.png);
+	background-size: 200px 100px;
+	position: relative;
+	top: 400px;
+	left: 50px;
+}
+#bomb {
+	height: 50px;
+	width: 50px;
+	background-image: url(/img/bomb.png);
+	background-size: 50px 50px;
+	position: relative;
+	top: 350px;
+	left: 950px;
+	animation: bombMov 1.5s infinite linear;
+}
+
+@keyframes bombMov {
+	0% {
+		left: 975px;
+	}
+	100% {
+		left: -25px;
+	}
+}
+
+#boo {
+	height: 50px;
+	width: 50px;
+	background-image: url(/img/boo.png);
+	background-size: 50px 50px;
+	position: relative;
+	top: 300px;
+}
+
+.jump {
+	animation: jump 0.5s linear;
+} 
+@keyframes jump {
+	0% {
+		top: 400px;
+	}
+	30% {
+		top: 250px;
+	}
+	50% {
+		top: 200px;
+	}
+	60% {
+		top: 250px;
+	}
+	80% {
+		top: 300px;
+	}
+	100% {
+		top: 400px;
+	}
+}
