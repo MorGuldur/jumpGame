@@ -20,8 +20,5 @@ let isAlive = setInterval (function() {
 
 	if (bombLeft < 200 && bombLeft > 0 && tankTop >= 360) {
 		alert("GAME OVER!");
-		return document.getElementById('bomb').style.backgroundImage = "url('/img/boo.png')";
-	} else if (bombLeft > 250 && tankTop <= 400) {
-		return document.getElementById('bomb').style.backgroundImage = "url('/img/bomb.png')";
 	}
 }, 1) 

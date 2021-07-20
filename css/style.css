@@ -8,7 +8,7 @@
 #tank {
 	height: 100px;
 	width: 200px;
-	background-image: url(/img/tank.png);
+	background-image: url(../img/tank.png);
 	background-size: 200px 100px;
 	position: relative;
 	top: 400px;
@@ -17,7 +17,7 @@
 #bomb {
 	height: 50px;
 	width: 50px;
-	background-image: url(/img/bomb.png);
+	background-image: url(../img/bomb.png);
 	background-size: 50px 50px;
 	position: relative;
 	top: 350px;
@@ -37,7 +37,7 @@
 #boo {
 	height: 50px;
 	width: 50px;
-	background-image: url(/img/boo.png);
+	background-image: url(./img/boo.png);
 	background-size: 50px 50px;
 	position: relative;
 	top: 300px;
